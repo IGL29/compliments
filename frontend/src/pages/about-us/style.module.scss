@@ -1,0 +1,175 @@
+@import '~styles/variables';
+
+.about-us {
+  &__how-we-work {
+    margin-bottom: 170px;
+  }
+}
+
+.about-us-section {
+  margin-bottom: 140px;
+
+  &__container {
+    display: flex;
+  }
+
+  &__content-wrapper {
+    flex: 1 1 50%;
+    margin-right: 100px;
+  }
+
+  &__bg {
+    flex: 1 1 50%;
+  }
+}
+
+.content-wrapper {
+  &__title {
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 60px;
+    font-family: 'Pomidorko', sans-serif;
+    text-transform: uppercase;
+  }
+
+  &__paragraph {
+    margin-bottom: 24px;
+    color: $color-3;
+    line-height: 1.4;
+  }
+}
+
+.bg {
+  background-image: image-set(url('/public/img/clients.webp') type('webp'), url('/public/img/clients.jpg'));
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.how-we-work {
+  text-align: center;
+
+  &__container {
+    &:global(.site-container) {
+      margin-bottom: 130px;
+    }
+  }
+
+  &__title {
+    margin-bottom: 8px;
+    font-weight: 400;
+    font-size: 40px;
+    font-family: 'Pomidorko', sans-serif;
+  }
+
+  &__text {
+    max-width: 1040px;
+    margin: 0 auto;
+    color: $color-3;
+    line-height: 1.4;
+  }
+
+  &__example-list {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+  }
+}
+
+@media (max-width: $ui-md) {
+  .about-us-section {
+    margin-bottom: 80px;
+
+    &__bg {
+      display: none;
+    }
+
+    &__content-wrapper {
+      flex-basis: 100%;
+      margin-right: 0;
+    }
+  }
+
+  .how-we-work {
+    margin-bottom: 80px;
+
+    &__container {
+      &:global(.site-container) {
+        margin-bottom: 60px;
+      }
+    }
+  }
+
+  .content-wrapper {
+    &__paragraph {
+      &:first-of-type {
+        position: relative;
+        margin-bottom: 30px;
+        padding-bottom: 330px;
+
+        &::after {
+          position: absolute;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          height: 300px;
+          background-image: image-set(url('/public/img/clients.webp') type('webp'), url('/public/img/clients.jpg'));
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: contain;
+          content: '';
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: $ui-xs) {
+  .about-us-section {
+    margin-bottom: 40px;
+  }
+
+  .content-wrapper {
+    &__btn {
+      display: block;
+      width: 100%;
+
+      &-text {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  }
+
+  .how-we-work {
+    margin-bottom: 60px;
+
+    &__container {
+      &:global(.site-container) {
+        margin-bottom: 40px;
+      }
+    }
+
+    &__example-list-wrapper {
+      position: relative;
+      height: 150px;
+      overflow-x: scroll;
+    }
+
+    &__example-list {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    &__example-item {
+      width: 240px;
+      height: 150px;
+    }
+
+    &__example-img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

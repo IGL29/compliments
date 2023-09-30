@@ -1,0 +1,1 @@
+export { SubscribtionFormContainer } from './SubscribtionFormContainer';

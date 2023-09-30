@@ -1,0 +1,50 @@
+@import '~styles/variables';
+
+.order-product {
+  display: flex;
+
+  &__background-img {
+    width: 100px;
+    background-image: url('/public/svg/order.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  &__content-wrapper {
+    margin-right: 20px;
+  }
+
+  &__status {
+    margin-left: auto;
+  }
+}
+
+.content-wrapper {
+  &__title {
+    margin-bottom: 10px;
+  }
+
+  &__paragraph {
+    margin-bottom: 8px;
+  }
+}
+
+.price-wrapper {
+  display: flex;
+
+  &__text {
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: $ui-sm) {
+  .order-product {
+    flex-direction: column;
+
+    &__content-wrapper {
+      margin-right: 0;
+      margin-bottom: 15px;
+    }
+  }
+}

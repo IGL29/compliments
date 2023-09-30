@@ -1,0 +1,27 @@
+@import '~styles/variables';
+
+.price {
+  display: flex;
+
+  &__price-value {
+    &:not(:last-child) {
+      margin-right: 5px;
+    }
+  }
+
+  &-current {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Pomidorko', sans-serif;
+
+    &--accent {
+      color: $color-16;
+    }
+  }
+
+  &-old {
+    color: $color-3;
+    font-size: 14px;
+    text-decoration: line-through;
+  }
+}

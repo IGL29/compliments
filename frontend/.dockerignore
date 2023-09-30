@@ -1,0 +1,14 @@
+.husky
+.vscode
+.coverage
+.dist
+.git
+node_modules
+.eslint
+.eslintignore
+.gitignore
+.prettierrc
+.stylelintrc
+Dockerfile
+README.md
+vite.config.ts.timestamp-*

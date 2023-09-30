@@ -1,0 +1,9 @@
+@mixin font-Cormorant($weight) {
+  font-weight: $weight;
+  font-family: OpenSans, sans-serif;
+}
+
+@mixin font-Oswald($weight) {
+  font-weight: $weight;
+  font-family: PlayfairDisplay, sans-serif;
+}

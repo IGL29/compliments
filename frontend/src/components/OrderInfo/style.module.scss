@@ -1,0 +1,49 @@
+@import '~styles/variables';
+
+.order-info {
+  padding: 20px;
+  background-color: $color-14;
+
+  &__row {
+    display: flex;
+    justify-content: space-between;
+
+    &:not(:last-child) {
+      margin-bottom: 15px;
+    }
+  }
+
+  &__head {
+    flex: 1 1 320px;
+    margin-right: 10px;
+    color: $color-3;
+
+    &--accent {
+      color: $color-2;
+    }
+  }
+
+  &__body {
+    flex: 1 1 100%;
+    align-self: center;
+    justify-content: right;
+    color: $color-3;
+    text-align: end;
+
+    &--accent {
+      color: $color-2;
+    }
+  }
+}
+
+@media (max-width: $ui-sm) {
+  .order-info {
+    padding: 20px;
+  }
+}
+
+@media (max-width: $ui-xs) {
+  .order-info {
+    padding: 10px;
+  }
+}

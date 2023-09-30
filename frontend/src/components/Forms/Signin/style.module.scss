@@ -1,0 +1,50 @@
+@import '~styles/variables';
+
+.form {
+  position: relative;
+
+  &__title {
+    margin-bottom: 21px;
+    font-weight: 400;
+    font-size: 32px;
+    font-family: 'Pomidorko', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  &__loader-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+  }
+
+  &__email-field-wrapper {
+    margin-bottom: 10px;
+  }
+
+  &__password-field-wrapper {
+    margin-bottom: 20px;
+  }
+
+  &__checkbox-wrapper {
+    margin-bottom: 24px;
+  }
+
+  &__submit-btn {
+    width: 100%;
+  }
+
+  &__submit-btn-text {
+    width: 100%;
+  }
+}
+
+@media (max-width: $ui-sm) {
+  .form {
+    &__title {
+      font-size: 24px;
+    }
+  }
+}

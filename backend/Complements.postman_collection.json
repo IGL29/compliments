@@ -1,0 +1,631 @@
+{
+	"info": {
+		"_postman_id": "092e2b76-cdb3-4666-93d9-0e84643202f8",
+		"name": "Complements",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12486469"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000 (TEST_ON_WORK_SERVER)",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {},
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1heGltQGVtYWlsMy5jb20iLCJ1c2VybmFtZSI6Ik1heGltIiwiaWF0IjoxNjg4OTkwMDczLCJleHAiOjE2ODg5OTAxMzN9.Hs8sDhnOz9bXrxrIVhDU_EQ-HUxBmizZXfeucj5IEVE",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/auth",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"new@email.test\",\r\n    \"password\": \"123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/auth",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"auth"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"new@email.test\",\r\n    \"password\": \"123\",\r\n    \"username\": \"newUser\",\r\n    \"phone\": 4564654\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/register",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/subscribtion",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{token}}",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"unknown@mail.test\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/subscribtion",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"subscribtion"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/subscribtion",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{token}}",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"unknown@mail.test\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/subscribtion",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"subscribtion"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/products",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{token}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{url}}/products?page=2&count=2",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"products"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "2"
+						},
+						{
+							"key": "count",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/products/:productId",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{token}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{url}}/products/jklcmfdd-0372-cxd3-lda6-653mn13asdv3",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"products",
+						"jklcmfdd-0372-cxd3-lda6-653mn13asdv3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/products/additionally",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{token}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{url}}/products/additionally",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"products",
+						"additionally"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/cart",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{token}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{url}}/cart",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/cart",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{token}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[  {\"count\": 7,\r\n    \"product\": {\r\n    \"id\": \"jklcm0dd-0372-cxd3-lda6-6536d13asdv3\",\r\n    \"title\": \"Набор 4(8 Марта)\",\r\n    \"img\": {\r\n      \"preview\": \"http://localhost:3000/static/images/products/set-4-march-8.jpg\",\r\n      \"other\": [\r\n        \"http://localhost:3000/static/images/products/set-4-march-8.jpg\",\r\n        \"http://localhost:3000/static/images/products/set-4-march-8.jpg\",\r\n        \"http://localhost:3000/static/images/products/set-4-march-8.jpg\",\r\n        \"http://localhost:3000/static/images/products/set-4-march-8.jpg\",\r\n        \"http://localhost:3000/static/images/products/set-4-march-8.jpg\"\r\n      ]\r\n    },\r\n    \"price\": 3500,\r\n    \"discount\": 40,\r\n    \"category\": \"holiday\",\r\n    \"subcategory\": \"easter\",\r\n    \"itemNumber\": 1234556,\r\n    \"composition\": \"edible\",\r\n    \"purpose\": \"guests\",\r\n    \"packaging\": \"basket\",\r\n    \"isCanDelivered\": true,\r\n    \"compositionItems\": [\r\n      \"Мёд белой акации, 300г  (1шт)\",\r\n      \"Деревянная ложечка  (1шт)\"\r\n    ],\r\n    \"sizes\": {\r\n      \"length\": 10,\r\n      \"width\": 6,\r\n      \"height\": 20,\r\n      \"weight\": 560\r\n    }\r\n  }},\r\n  {\"count\": 3,\r\n    \"product\": {\r\n    \"id\": \"jklcm0dd-0372-cxd3-lda6-6536d17asdv3\",\r\n    \"title\": \"Набор 4(8 Марта)\",\r\n    \"img\": {\r\n      \"preview\": \"http://localhost:3000/static/images/products/set-4-march-8.jpg\",\r\n      \"other\": [\r\n        \"http://localhost:3000/static/images/products/set-4-march-8.jpg\",\r\n        \"http://localhost:3000/static/images/products/set-4-march-8.jpg\",\r\n        \"http://localhost:3000/static/images/products/set-4-march-8.jpg\",\r\n        \"http://localhost:3000/static/images/products/set-4-march-8.jpg\",\r\n        \"http://localhost:3000/static/images/products/set-4-march-8.jpg\"\r\n      ]\r\n    },\r\n    \"price\": 3500,\r\n    \"discount\": 40,\r\n    \"category\": \"holiday\",\r\n    \"subcategory\": \"easter\",\r\n    \"itemNumber\": 1234556,\r\n    \"composition\": \"edible\",\r\n    \"purpose\": \"guests\",\r\n    \"packaging\": \"basket\",\r\n    \"isCanDelivered\": true,\r\n    \"compositionItems\": [\r\n      \"Мёд белой акации, 300г  (1шт)\",\r\n      \"Деревянная ложечка  (1шт)\"\r\n    ],\r\n    \"sizes\": {\r\n      \"length\": 10,\r\n      \"width\": 6,\r\n      \"height\": 20,\r\n      \"weight\": 560\r\n    }\r\n  }}]\r\n\r\n     \r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/cart",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/cart",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{token}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"count\": 4,\r\n    \"id\": \"jklcmfdd-0372-cxd3-lsj6-6536d13asdv3\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/cart",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/cart",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{token}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"jklcmfdd-0372-cxd3-lda6-6536d13asdv3\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/cart",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/feedback",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"phone\": \"12312312\",\r\n    \"comment\": \"dasffasda\",\r\n    \"name\": \"Ivan\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/feedback",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"feedback"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/promo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/promo",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"promo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/orders",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{token}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{url}}/orders",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"orders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/orders/:orderId",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{token}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{url}}/orders/7a2b2245-1ac8-4fc0-900c-815b29be803c",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"orders",
+						"7a2b2245-1ac8-4fc0-900c-815b29be803c"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/orders (AUTH)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{token}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"asdasd\",\r\n    \"phone\": 654654,\r\n    \"address\": {\r\n            \"city\": \"string\",\r\n            \"street\": \"string\",\r\n            \"house\": \"string\",\r\n            \"entrance\": \"string\",\r\n            \"apartment\": \"string\"\r\n            },\r\n    \"deliveryMethod\": \"asdads\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/orders",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"orders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/orders (NO_AUTH)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{token}}",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"asdasd\",\r\n    \"phone\": 654654,\r\n    \"address\": {\r\n          \"city\": \"string\",\r\n  \"street\": \"string\",\r\n  \"house\": \"string\",\r\n  \"entrance\": \"string\",\r\n  \"apartment\": \"string\"\r\n    },\r\n    \"deliveryMethod\": \"asdads\",\r\n    \"cart\": [\r\n    {\r\n        \"count\": 14,\r\n        \"product\": {\r\n            \"id\": \"jklcmfdd-0372-cxd3-lda6-6536d13asdv3\",\r\n            \"title\": \"Набор 4(8 Марта)\",\r\n            \"img\": {\r\n                \"preview\": \"http://localhost:3000/static/images/set-4-march-8.jpg\",\r\n                \"other\": [\r\n                    \"http://localhost:3000/static/images/set-4-march-8.jpg\",\r\n                    \"http://localhost:3000/static/images/set-4-march-8.jpg\",\r\n                    \"http://localhost:3000/static/images/set-4-march-8.jpg\",\r\n                    \"http://localhost:3000/static/images/set-4-march-8.jpg\",\r\n                    \"http://localhost:3000/static/images/set-4-march-8.jpg\"\r\n                ]\r\n            },\r\n            \"price\": 3900,\r\n            \"discount\": 0,\r\n            \"category\": \"she\",\r\n            \"subcategory\": \"newYear\",\r\n            \"itemNumber\": 1234556,\r\n            \"composition\": \"edible\",\r\n            \"purpose\": \"kitchen\",\r\n            \"packaging\": \"basket\",\r\n            \"qty\": 50\r\n        }\r\n    }\r\n]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/orders",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"orders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/contacts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/contacts",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"contacts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/requisites",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/requisites",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"requisites"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/profile",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{token}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{url}}/profile",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"profile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/profile",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{token}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\": \"Dmitry\", \"email\": \"dmitry@mail.test\", \"address\": {\r\n    \"city\": \"Rostov\", \"street\": \"str\", \"house\": \"1\", \"entrance\": \"1\", \"apartment\": \"11\"\r\n}}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/profile",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"profile"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "token",
+			"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRtaXRyeUBlbWFpbC50ZXN0IiwidXNlcm5hbWUiOiJEbWl0cnkiLCJpYXQiOjE2ODk0MzczNjgsImV4cCI6MTY4OTUzNzM2OH0.e7eQtxq9Uql24EHnVOidWKtV-KfszU9YQw2z6e-LB9Y"
+		}
+	]
+}

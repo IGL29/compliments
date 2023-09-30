@@ -1,0 +1,39 @@
+@import '~styles/variables';
+
+.loader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3px;
+  background-color: $color-14;
+  border: 1px solid $color-13;
+  border-radius: 7px;
+
+  &__svg {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+    background-image: url('/public/svg/gift-with-balloon.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    animation: fade-anim infinite alternate 0.7s;
+  }
+
+  &__text {
+    font-size: 18px;
+    font-family: 'Pomidorko', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+
+@keyframes fade-anim {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

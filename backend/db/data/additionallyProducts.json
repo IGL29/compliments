@@ -1,0 +1,38 @@
+[
+  {
+    "id": "dasru79dd-0372-cxd3-lda6-6536d13sasd9",
+    "title": "Открытка",
+    "img": "http://localhost:5000/static/images/products/additionally/postcard.jpg",
+    "price": 100,
+    "discount": 0,
+    "itemNumber": 1234556,
+    "isCanDelivered": true
+  },
+  {
+    "id": "dfaru79dd-0372-cxd3-lda6-lkj296d13d31",
+    "title": "Игрушка",
+    "img": "http://localhost:5000/static/images/products/additionally/toy.jpg",
+    "price": 100,
+    "discount": 0,
+    "itemNumber": 1234556,
+    "isCanDelivered": true
+  },
+  {
+    "id": "jkru79dd-0372-cxd3-lda6-6536d13asdv0",
+    "title": "Топпер",
+    "img": "http://localhost:5000/static/images/products/additionally/topper.jpg",
+    "price": 100,
+    "discount": 0,
+    "itemNumber": 1234556,
+    "isCanDelivered": true
+  },
+  {
+    "id": "jkru79dd-0372-cxd3-lda6-65lkjc7sdv1",
+    "title": "Конверт для денег",
+    "img": "http://localhost:5000/static/images/products/additionally/envelope.jpg",
+    "price": 100,
+    "discount": 0,
+    "itemNumber": 1234556,
+    "isCanDelivered": true
+  }
+]

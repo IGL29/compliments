@@ -1,0 +1,183 @@
+@import '~styles/variables';
+
+.title {
+  font-weight: 400;
+  font-size: 40px;
+  font-family: 'Pomidorko', sans-serif;
+}
+
+.content-container {
+  &__contacts {
+    margin-bottom: 108px;
+  }
+}
+
+.contacts {
+  display: flex;
+
+  &__content-wrapper {
+    flex: 0 1 50%;
+    min-width: 340px;
+    max-width: 420px;
+    margin-right: 22px;
+  }
+
+  &__image {
+    flex: 1 1 50%;
+    background-image: image-set(
+      url('/public/img/lilac-flowers.webp') type('webp'),
+      url('/public/img/lilac-flowers.jpg')
+    );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+}
+
+.content-wrapper {
+  &__title {
+    margin-bottom: 27px;
+  }
+
+  &__text {
+    margin-bottom: 27px;
+    color: $color-3;
+  }
+
+  &__us-contacts-wrapper {
+    margin-bottom: 15px;
+  }
+}
+
+.us-contacts-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 430px;
+
+  &__row {
+    display: flex;
+    justify-content: space-between;
+
+    &:not(:last-child) {
+      margin-bottom: 13px;
+    }
+  }
+
+  &__head {
+    flex: 0 0 150px;
+    margin-right: 20px;
+  }
+
+  &__body {
+    flex: 0 0 200px;
+  }
+}
+
+.social-wrapper {
+  &__link {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
+  }
+}
+
+.sections-wrapper {
+  display: flex;
+  justify-content: space-between;
+
+  &__requisites {
+    flex: 1 1 50%;
+    min-width: 280px;
+    margin-right: 30px;
+  }
+
+  &__feedback {
+    flex: 1 1 50%;
+  }
+}
+
+.requisites {
+  &__title {
+    margin-bottom: 27px;
+  }
+
+  &__text {
+    color: $color-3;
+  }
+
+  &__text-paragraph {
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+@media (max-width: $ui-sm) {
+  .content-container {
+    &__contacts {
+      flex-direction: column;
+    }
+  }
+
+  .contacts {
+    margin-bottom: 30px;
+
+    &__content-wrapper {
+      min-width: 100%;
+      margin-right: 0;
+      margin-bottom: 30px;
+    }
+
+    &__image {
+      min-height: 250px;
+      background-size: cover;
+    }
+  }
+
+  .sections-wrapper {
+    flex-direction: column;
+
+    &__requisites {
+      min-width: initial;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+@media (max-width: $ui-xs) {
+  .title {
+    font-size: 24px;
+  }
+
+  .content-wrapper {
+    &__title {
+      text-align: center;
+    }
+  }
+
+  .us-contacts-wrapper {
+    &__head {
+      flex-shrink: 1;
+    }
+
+    &__body {
+      flex-shrink: 1;
+    }
+  }
+
+  .requisites {
+    &__title {
+      text-align: center;
+    }
+  }
+
+  .feedback {
+    &__title {
+      text-align: center;
+    }
+  }
+}

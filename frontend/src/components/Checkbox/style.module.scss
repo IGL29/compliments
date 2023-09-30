@@ -1,0 +1,94 @@
+@import '~styles/variables';
+
+.checkbox-wrapper {
+  display: flex;
+
+  &__input-wrapper {
+    margin-right: 8px;
+
+    &--top {
+      align-self: flex-start;
+    }
+
+    &--center {
+      align-self: center;
+    }
+  }
+
+  &__label {
+    color: $color-3;
+    font-size: 14px;
+    cursor: pointer;
+
+    &--disabled {
+      cursor: default;
+    }
+  }
+}
+
+.input-wrapper {
+  position: relative;
+  line-height: 0;
+  border: 1px solid rgba($color: $color-13, $alpha: 70%);
+  transition: background-color 0.3s;
+
+  &--error {
+    background-color: rgba($color: $color-16, $alpha: 10%);
+  }
+
+  &--disabled {
+    background-color: rgba($color: $color-3, $alpha: 10%);
+    pointer-events: none;
+  }
+
+  &__custom-checkbox {
+    pointer-events: none;
+
+    &::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 2px solid $color-2;
+      opacity: 0;
+      content: '';
+      pointer-events: none;
+    }
+
+    &::after {
+      position: absolute;
+      top: 10%;
+      left: 50%;
+      width: 80%;
+      height: 50%;
+      border-top: 2px solid transparent;
+      border-right: 2px solid transparent;
+      border-bottom: 2px solid $color-10;
+      border-left: 2px solid $color-10;
+      transform: translateX(-50%) rotateZ(315deg);
+      opacity: 0;
+      transition: opacity 0.3s;
+      content: '';
+    }
+  }
+
+  &__input {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    opacity: 0;
+
+    &:focus {
+      & + .input-wrapper__custom-checkbox::before {
+        opacity: 1;
+      }
+    }
+
+    &:checked {
+      & + .input-wrapper__custom-checkbox::after {
+        opacity: 1;
+      }
+    }
+  }
+}

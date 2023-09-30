@@ -1,0 +1,76 @@
+@import '~styles/variables';
+
+.link {
+  display: block;
+  padding: 60px 20px 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  &--animate {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s;
+
+    &::after {
+      position: absolute;
+      top: 0%;
+      left: 110%;
+      width: 40%;
+      height: 100%;
+      background-color: rgba($color: $color-11, $alpha: 50%);
+      transform: skewX(-20deg);
+      transition: left 0.5s;
+      transition: transform 0.3s;
+      content: '';
+    }
+
+    @media ($ui-mouse-device) {
+      &:hover {
+        transform: scale(1.05);
+
+        &::after {
+          transform: skewX(-20deg) translateX(-130%);
+        }
+      }
+    }
+  }
+
+  &--mini {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  &__text {
+    padding: 20px;
+    font-size: 40px;
+    font-family: 'Pomidorko', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+
+    &--mini {
+      font-size: 24px;
+    }
+
+    &--accent {
+      background-color: rgba($color: $color-11, $alpha: 90%);
+      border-radius: 40px;
+    }
+  }
+}
+
+@media (max-width: $ui-md) {
+  .link {
+    &__text {
+      font-size: 24px;
+    }
+  }
+}
+
+@media (max-width: $ui-xs) {
+  .link {
+    &__text {
+      font-size: 18px;
+    }
+  }
+}

@@ -1,0 +1,53 @@
+@import '~styles/variables';
+
+.order-section {
+  &__content-wrapper {
+    padding: 45px 47px;
+  }
+
+  &__container {
+    &:global(.site-container) {
+      max-width: 1100px;
+      padding-bottom: 15px;
+    }
+  }
+
+  &__title {
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 34px;
+    font-family: 'Pomidorko', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width: $ui-sm) {
+  .order-section {
+    &__title {
+      font-size: 28px;
+    }
+
+    &__content-wrapper {
+      padding: 20px;
+    }
+  }
+
+  .order-form {
+    &__legend {
+      font-size: 18px;
+    }
+  }
+}
+
+@media (max-width: $ui-xs) {
+  .order-section {
+    &__title {
+      font-size: 24px;
+    }
+
+    &__content-wrapper {
+      padding: 10px;
+    }
+  }
+}

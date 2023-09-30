@@ -1,0 +1,39 @@
+@import '~styles/variables';
+
+.form {
+  position: relative;
+
+  &__loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+  }
+
+  &__field {
+    margin-bottom: 8px;
+
+    &--textarea {
+      margin-bottom: 21px;
+    }
+  }
+
+  &__checkbox {
+    margin-bottom: 21px;
+  }
+
+  &__btn {
+    width: 100%;
+  }
+
+  &__btn-text {
+    width: 100%;
+  }
+}
+
+.checkbox {
+  &__label {
+    color: $color-3;
+  }
+}

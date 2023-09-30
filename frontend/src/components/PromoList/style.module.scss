@@ -1,0 +1,14 @@
+@import '~styles/variables';
+
+.promo-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  column-gap: 30px;
+  row-gap: 35px;
+}
+
+@media (max-width: $ui-xs) {
+  .promo-list {
+    grid-template-columns: 1fr;
+  }
+}

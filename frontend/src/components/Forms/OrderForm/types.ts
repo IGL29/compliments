@@ -1,0 +1,47 @@
+import { INewOrderData } from '~src/services/api/entities/api-orders/types';
+
+export interface IProps {
+  rootClassName?: string;
+  name: INewOrderData['name'];
+  phone: INewOrderData['phone'] | null;
+  deliveryMethod: INewOrderData['deliveryMethod'] | null;
+  city: INewOrderData['address']['city'];
+  street: INewOrderData['address']['street'];
+  house: INewOrderData['address']['house'];
+  entrance: INewOrderData['address']['entrance'];
+  apartment: INewOrderData['address']['apartment'];
+  comment: INewOrderData['comment'];
+  isAgreePolicy: boolean;
+  isLoading: boolean;
+  nameError?: string;
+  phoneError?: string;
+  deliveryMethodError?: string;
+  cityError?: string;
+  streetError?: string;
+  houseError?: string;
+  entranceError?: string;
+  apartmentError?: string;
+  commentError?: string;
+  isAgreePolicyError?: string;
+  cbChangeIsAgreePolicy: (value: boolean) => void;
+  cbChangeName: (value: IProps['name']) => void;
+  cbChangePhone: (value: IProps['phone']) => void;
+  cbChangeDeliveryMethod: (value: IProps['deliveryMethod']) => void;
+  cbChangeCity: (value: IProps['city']) => void;
+  cbChangeStreet: (value: IProps['street']) => void;
+  cbChangeHouse: (value: IProps['house']) => void;
+  cbChangeEntrance: (value: IProps['entrance']) => void;
+  cbChangeApartment: (value: IProps['apartment']) => void;
+  cbChangeComment: (value: IProps['comment']) => void;
+  cbChangeTouchedAgreePolicy: () => void;
+  cbChangeTouchedApartment: () => void;
+  cbChangeTouchedCity: () => void;
+  cbChangeTouchedComment: () => void;
+  cbChangeTouchedDeliveryMethod: () => void;
+  cbChangeTouchedEntrance: () => void;
+  cbChangeTouchedHouse: () => void;
+  cbChangeTouchedName: () => void;
+  cbChangeTouchedPhone: () => void;
+  cbChangeTouchedStreet: () => void;
+  cbSubmit: () => void;
+}

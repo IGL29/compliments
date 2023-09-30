@@ -1,0 +1,1 @@
+export { ProductForOrder } from './ProductForOrder';

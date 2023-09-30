@@ -1,0 +1,28 @@
+@import '~styles/variables';
+
+.filters {
+  &__btn-wrapper {
+    position: relative;
+
+    &::after {
+      position: absolute;
+      top: 50%;
+      right: 20px;
+      width: 12px;
+      height: 12px;
+      border-top: 2px solid transparent;
+      border-right: 2px solid transparent;
+      border-bottom: 2px solid rgba($color: $color-3, $alpha: 70%);
+      border-left: 2px solid rgba($color: $color-3, $alpha: 70%);
+      transform: translateY(-75%) rotateZ(-45deg);
+      transition: transform 0.1s;
+      content: '';
+    }
+
+    &--active {
+      &::after {
+        transform: translateY(-35%) rotateZ(135deg);
+      }
+    }
+  }
+}

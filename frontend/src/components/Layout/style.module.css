@@ -1,0 +1,14 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+
+.layout__header {
+  margin-bottom: 24px;
+}
+
+.layout__content {
+  flex-grow: 1;
+}

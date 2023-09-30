@@ -1,0 +1,10 @@
+.image-loading {
+  &::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 14px;
+    transform: translate(-50%, -50%);
+    content: 'Загрузка';
+  }
+}

@@ -1,0 +1,45 @@
+@import '~styles/variables';
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 320px;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+
+  &__title {
+    margin-bottom: 8px;
+    font-weight: 400;
+    font-size: 32px;
+    font-family: 'Pomidorko', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  &__img {
+    width: 72px;
+    height: 93px;
+    margin-bottom: 21px;
+    background-image: url('/public/svg/gift-with-balloon.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  &__text {
+    margin-bottom: 21px;
+    color: $color-3;
+  }
+}
+
+@media (max-width: $ui-xs) {
+  .content {
+    &__title {
+      font-size: 24px;
+    }
+  }
+}

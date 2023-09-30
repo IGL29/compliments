@@ -1,0 +1,17 @@
+.counter__btn {
+  width: 32px;
+  height: 32px;
+  padding: 5px;
+}
+
+.counter__btn-text {
+  width: 100%;
+  padding: 0;
+  text-align: center;
+}
+
+.counter__input {
+  width: 42px;
+  height: 32px;
+  text-align: center;
+}

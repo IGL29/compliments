@@ -1,0 +1,19 @@
+.counter {
+  &__btn {
+    width: 32px;
+    height: 32px;
+    padding: 5px;
+  }
+
+  &__btn-text {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+
+  &__input {
+    width: 42px;
+    height: 32px;
+    text-align: center;
+  }
+}

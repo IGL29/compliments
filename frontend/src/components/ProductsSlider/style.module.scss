@@ -1,0 +1,92 @@
+@import '~styles/variables';
+
+.carousel-root-wrapper {
+  position: relative;
+  height: 387px;
+
+  &__loader-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+  }
+
+  &__loader {
+    width: max-content;
+  }
+
+  &__error-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+  }
+
+  &__error {
+    width: max-content;
+  }
+}
+
+.carousel {
+  position: absolute;
+  right: 0;
+  left: 0;
+  display: flex;
+  height: 100%;
+
+  &__slider-wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  &__wrapper-container {
+    position: relative;
+    display: flex;
+    flex: 1 1 100%;
+    flex-direction: column;
+    order: 2;
+    max-width: 100%;
+  }
+}
+
+.wrapper-container {
+  &__container {
+    position: absolute;
+    right: 0;
+    left: 0;
+  }
+}
+
+.carousel__btn {
+  flex-shrink: 0;
+  align-self: center;
+  width: 42px;
+  height: 42px;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+
+  &--back {
+    order: 1;
+  }
+
+  &--next {
+    order: 3;
+    transform: rotateY(180deg);
+  }
+}
+
+.products-slider {
+  position: absolute !important;
+  right: 0;
+  left: 0;
+
+  &__slide-content-wrapper {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}

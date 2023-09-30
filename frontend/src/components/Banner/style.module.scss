@@ -1,0 +1,105 @@
+@import '~styles/variables';
+
+.banner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  background-color: $color-14;
+
+  &::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 19%;
+    max-width: 430px;
+    height: 240px;
+    background-image: image-set(url('/public/img/bg-gift-2.webp') type('image/webp'), url('/public/img/bg-gift-2.png'));
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: contain;
+    content: '';
+  }
+
+  &::before {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 31%;
+    max-width: 430px;
+    height: 240px;
+    background-image: image-set(url('/public/img/bg-gift-1.webp') type('image/webp'), url('/public/img/bg-gift-1.png'));
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: contain;
+    content: '';
+  }
+}
+
+.content-wrapper {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  width: 100%;
+  max-width: 675px;
+
+  &__text-wrapper {
+    margin-right: 20px;
+  }
+
+  &__accent-text {
+    margin-bottom: 8px;
+    color: $color-2;
+    font-weight: 700;
+    font-size: 32px;
+    text-transform: uppercase;
+  }
+
+  &__descr-text {
+    color: $color-3;
+    font-size: 18px;
+  }
+
+  &__btn {
+    align-self: center;
+  }
+}
+
+@media (max-width: $ui-md) {
+  .banner {
+    &::after {
+      content: none;
+    }
+  }
+}
+
+@media (max-width: $ui-xs) {
+  .banner {
+    padding-bottom: 180px;
+
+    &::before {
+      content: none;
+    }
+
+    &::after {
+      width: 100%;
+      height: 175px;
+      content: '';
+    }
+  }
+
+  .content-wrapper {
+    flex-direction: column;
+    text-align: center;
+
+    &__text-wrapper {
+      margin-right: 0;
+      margin-bottom: 15px;
+    }
+
+    &__accent-text {
+      font-size: 24px;
+    }
+  }
+}

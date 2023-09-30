@@ -1,0 +1,52 @@
+@import '~styles/variables';
+
+.tooltip {
+  position: relative;
+
+  &__content {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+
+    &--left-full {
+      left: 100%;
+    }
+
+    &--right-full {
+      right: 100%;
+    }
+
+    &--left-middle {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    &--top-full {
+      top: 100%;
+    }
+
+    &--top-middle {
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    &--bottom-full {
+      bottom: 100%;
+    }
+  }
+
+  &__trigger {
+    &:focus ~ .tooltip__content {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    @media ($ui-mouse-device) {
+      &:hover ~ .tooltip__content {
+        visibility: visible;
+        opacity: 1;
+      }
+    }
+  }
+}

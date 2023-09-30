@@ -1,0 +1,96 @@
+@import '~styles/variables';
+
+.burger-menu {
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-color: $color-11;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+
+  &__logo-link {
+    display: inline-block;
+    width: 100%;
+    max-width: 263px;
+    max-height: 108px;
+    padding-top: 85px;
+    background-image: url('/public/svg/logo-color.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  &__btn-close {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    padding: 0;
+
+    &::after {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 70%;
+      height: 1px;
+      background-color: $color-11;
+      transform: translate(-50%, -50%) rotateZ(45deg);
+      content: '';
+    }
+
+    &::before {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 70%;
+      height: 1px;
+      background-color: $color-11;
+      transform: translate(-50%, -50%) rotateZ(-45deg);
+      content: '';
+    }
+  }
+
+  &__body {
+    display: flex;
+    flex: 1 1 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__content {
+    margin-bottom: 60px;
+  }
+
+  &__address {
+    justify-content: center;
+  }
+}
+
+@media (max-width: $ui-sm) {
+  .burger-menu {
+    &__btn-close {
+      width: 50px;
+      height: 50px;
+    }
+  }
+}
+
+@media (max-width: $ui-xs) {
+  .burger-menu {
+    &__btn-close {
+      width: 30px;
+      height: 30px;
+    }
+
+    &__logo-link {
+      width: 150px;
+    }
+  }
+}

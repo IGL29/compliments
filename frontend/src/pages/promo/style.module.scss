@@ -1,0 +1,38 @@
+@import '~styles/variables';
+
+.promo-page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  &__container {
+    &:global(.site-container) {
+      flex-grow: 1;
+      margin-bottom: 30px;
+    }
+  }
+
+  &__title {
+    margin-bottom: 14px;
+    text-align: center;
+  }
+
+  &__select-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+  }
+
+  &__select {
+    max-width: 240px;
+  }
+}
+
+@media (max-width: $ui-xs) {
+  .promo-page {
+    &__select {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+}

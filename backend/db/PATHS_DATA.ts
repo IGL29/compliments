@@ -1,0 +1,9 @@
+export const USERS_PATH = './db/data/users.json';
+export const CARTS_PATH = './db/data/carts.json';
+export const ORDERS_PATH = './db/data/orders.json';
+export const PROMO_PATH = './db/data/promotions.json';
+export const CONTACTS_PATH = './db/data/contacts.json';
+export const PRODUCTS_PATH = './db/data/products.json';
+export const REQUISITES_PATH = './db/data/requisites.json';
+export const SUBSCRIPTIONS_PATH = './db/data/subscribtions.json';
+export const ADDITIONALLY_PRODUCTS_PATH = './db/data/additionallyProducts.json';

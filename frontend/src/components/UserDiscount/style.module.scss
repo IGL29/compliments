@@ -1,0 +1,27 @@
+@import '~styles/variables';
+
+.user-discount {
+  max-width: 350px;
+  margin: 0 auto;
+
+  &__section {
+    &:not(:last-child) {
+      margin-bottom: 40px;
+    }
+  }
+
+  &__section-title {
+    margin-bottom: 8px;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Pomidorko', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  &__descr {
+    padding: 15px 20px;
+    text-align: center;
+    background-color: $color-14;
+  }
+}

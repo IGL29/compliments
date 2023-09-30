@@ -1,0 +1,1 @@
+export { ApiPromoService } from './ApiPromoService';

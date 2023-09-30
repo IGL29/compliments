@@ -1,0 +1,37 @@
+@import '~styles/variables';
+
+.orders {
+  &__item {
+    &:not(:last-of-type) {
+      position: relative;
+      margin-bottom: 24px;
+      padding-bottom: 24px;
+
+      &::after {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        background-color: rgba($color: $color-3, $alpha: 30%);
+        content: '';
+      }
+    }
+  }
+
+  &__order-product-link {
+    display: block;
+    background-color: transparent;
+    transition: background-color 0.3s;
+
+    @media ($ui-mouse-device) {
+      &:hover {
+        background-color: rgba($color: $color-10, $alpha: 10%);
+      }
+    }
+
+    &:active {
+      background-color: rgba($color: $color-10, $alpha: 20%);
+    }
+  }
+}

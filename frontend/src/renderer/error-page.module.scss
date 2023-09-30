@@ -1,0 +1,25 @@
+.page {
+  &__title {
+    margin-bottom: 30px;
+  }
+
+  &__text {
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+}
+
+.title {
+  font-size: 50px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.text {
+  font-size: 18px;
+  text-align: center;
+}
+
+.link-wrapper {
+  text-align: center;
+}

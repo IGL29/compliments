@@ -1,0 +1,12 @@
+{
+  "env": {
+    "browser": false,
+    "es2020": true
+  },
+  "extends": [
+    "prettier"
+  ],
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  }
+}

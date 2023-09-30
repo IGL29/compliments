@@ -1,0 +1,1 @@
+export { PromotionsContainer } from './PromotionsContainer';

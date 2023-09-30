@@ -1,0 +1,57 @@
+@import '~styles/variables';
+
+.page {
+  &__container {
+    &:global(.decor-container) {
+      margin-bottom: 0;
+    }
+
+    padding-bottom: 50px;
+  }
+}
+
+.content-container {
+  &__title {
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 60px;
+    font-family: 'Pomidorko', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  &__btn {
+    display: block;
+    width: max-content;
+    margin: 0 auto;
+  }
+
+  &__btn-text {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: $ui-md) {
+  .content-container {
+    &__btn {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: $ui-sm) {
+  .content-container {
+    &__title {
+      font-size: 40px;
+    }
+  }
+}
+
+@media (max-width: $ui-xs) {
+  .content-container {
+    &__title {
+      font-size: 24px;
+    }
+  }
+}

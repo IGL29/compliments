@@ -1,0 +1,80 @@
+@import '~styles/variables';
+
+.order-detail {
+  &__container {
+    padding-bottom: 60px;
+  }
+}
+
+.order {
+  &__address {
+    margin-bottom: 30px;
+  }
+
+  &__about-order {
+    margin-bottom: 30px;
+  }
+
+  &__number {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+}
+
+.number {
+  font-size: 24px;
+  text-transform: uppercase;
+
+  &__descr {
+    margin-right: 10px;
+    font-family: 'Pomidorko', sans-serif;
+  }
+}
+
+.frame {
+  padding: 15px;
+  background-color: $color-14;
+  border-radius: 10px;
+}
+
+.address {
+  font-size: 18px;
+
+  &__paragraph:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  &__paragraph-descr {
+    margin-right: 7px;
+  }
+}
+
+.about-order {
+  font-size: 18px;
+
+  &__paragraph:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+
+.products {
+  padding: 15px;
+
+  &__title {
+    font-size: 18px;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(465px, 1fr));
+    gap: 30px;
+  }
+}
+
+@media (max-width: $ui-xs) {
+  .products {
+    &__list {
+      grid-template-columns: 1fr;
+    }
+  }
+}

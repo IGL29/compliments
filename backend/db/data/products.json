@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "jklcmfdd-0372-cxd3-lda6-6536d13asmn3",
+    "title": "Набор 4(8 Марта)",
+    "img": {
+      "preview": "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+      "other": [
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg"
+      ]
+    },
+    "price": 3900,
+    "discount": 0,
+    "category": "she",
+    "subcategory": "newYear",
+    "itemNumber": 1234556,
+    "composition": "edible",
+    "purpose": "kitchen",
+    "packaging": "basket",
+    "isCanDelivered": true,
+    "compositionItems": ["Мёд белой акации, 300г  (1шт)", "Деревянная ложечка  (1шт)"],
+    "sizes": {
+      "length": 10,
+      "width": 6,
+      "height": 20,
+      "weight": 560
+    }
+  },
+  {
+    "id": "jklcmfdd-0372-cxd3-lda6-65asd6d13asdv3",
+    "title": "Набор 4(8 Марта)",
+    "img": {
+      "preview": "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+      "other": [
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg"
+      ]
+    },
+    "price": 4900,
+    "discount": 10,
+    "category": "he",
+    "subcategory": "newYear",
+    "itemNumber": 1234556,
+    "composition": "inedible",
+    "purpose": "guests",
+    "packaging": "box",
+    "isCanDelivered": true,
+    "compositionItems": ["Мёд белой акации, 300г  (1шт)", "Деревянная ложечка  (1шт)"],
+    "sizes": {
+      "length": 10,
+      "width": 6,
+      "height": 20,
+      "weight": 560
+    }
+  },
+  {
+    "id": "jklcmfdd-0372-cxl8-lda6-65asd6d13asdv3",
+    "title": "Набор 4(8 Марта)",
+    "img": {
+      "preview": "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+      "other": [
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg"
+      ]
+    },
+    "price": 3700,
+    "discount": 10,
+    "category": "he",
+    "subcategory": "february23",
+    "itemNumber": 1234556,
+    "composition": "inedible",
+    "purpose": "guests",
+    "packaging": "box",
+    "isCanDelivered": true,
+    "compositionItems": ["Мёд белой акации, 300г  (1шт)", "Деревянная ложечка  (1шт)"],
+    "sizes": {
+      "length": 10,
+      "width": 6,
+      "height": 20,
+      "weight": 560
+    }
+  },
+  {
+    "id": "jklcmfdd-0372-cxd3-lda6-6536d1casdv3",
+    "title": "Набор 4(8 Марта)",
+    "img": {
+      "preview": "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+      "other": [
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg"
+      ]
+    },
+    "price": 2999,
+    "discount": 3,
+    "category": "children",
+    "subcategory": "newYear",
+    "itemNumber": 1234556,
+    "composition": "edible",
+    "purpose": "kitchen",
+    "packaging": "packet",
+    "isCanDelivered": false,
+    "compositionItems": ["Мёд белой акации, 300г  (1шт)", "Деревянная ложечка  (1шт)"],
+    "sizes": {
+      "length": 10,
+      "width": 6,
+      "height": 20,
+      "weight": 560
+    }
+  },
+  {
+    "id": "jklcmfdd-0372-cxd3-lda6-653mn13asdv3",
+    "title": "Набор 4(8 Марта)",
+    "img": {
+      "preview": "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+      "other": [
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg"
+      ]
+    },
+    "price": 5500,
+    "discount": 5,
+    "category": "holiday",
+    "subcategory": "newYear",
+    "itemNumber": 1234556,
+    "composition": "inedible",
+    "purpose": "kitchen",
+    "packaging": "packet",
+    "isCanDelivered": false,
+    "compositionItems": ["Мёд белой акации, 300г  (1шт)", "Деревянная ложечка  (1шт)"],
+    "sizes": {
+      "length": 10,
+      "width": 6,
+      "height": 20,
+      "weight": 560
+    }
+  },
+  {
+    "id": "jklcmfdd-0372-cxd3-lda6-6536a13asdv3",
+    "title": "Набор 4(8 Марта)",
+    "img": {
+      "preview": "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+      "other": [
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg"
+      ]
+    },
+    "price": 2850,
+    "discount": 0,
+    "category": "holiday",
+    "subcategory": "march8th",
+    "itemNumber": 1234556,
+    "composition": "edible",
+    "purpose": "guests",
+    "packaging": "box",
+    "isCanDelivered": true,
+    "compositionItems": ["Мёд белой акации, 300г  (1шт)", "Деревянная ложечка  (1шт)"],
+    "sizes": {
+      "length": 10,
+      "width": 6,
+      "height": 20,
+      "weight": 560
+    }
+  },
+  {
+    "id": "jklcmfdd-0372-cxd3-lda6-6537d13asdv3",
+    "title": "Набор 4(8 Марта)",
+    "img": {
+      "preview": "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+      "other": [
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg"
+      ]
+    },
+    "price": 3200,
+    "discount": 25,
+    "category": "holiday",
+    "subcategory": "february23",
+    "itemNumber": 1234556,
+    "composition": "edible",
+    "purpose": "bathhouse",
+    "packaging": "basket",
+    "isCanDelivered": false,
+    "compositionItems": ["Мёд белой акации, 300г  (1шт)", "Деревянная ложечка  (1шт)"],
+    "sizes": {
+      "length": 10,
+      "width": 6,
+      "height": 20,
+      "weight": 560
+    }
+  },
+  {
+    "id": "jklcmfdd-0372-cxd3-lda6-6536d27asdv3",
+    "title": "Набор Снова в школу",
+    "img": {
+      "preview": "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+      "other": [
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg"
+      ]
+    },
+    "price": 1950,
+    "discount": 5,
+    "category": "holiday",
+    "subcategory": "september1st",
+    "itemNumber": 1234556,
+    "composition": "inedible",
+    "purpose": "cosmetic",
+    "packaging": "packet",
+    "isCanDelivered": true,
+    "compositionItems": ["Мёд белой акации, 300г  (1шт)", "Деревянная ложечка  (1шт)"],
+    "sizes": {
+      "length": 10,
+      "width": 6,
+      "height": 20,
+      "weight": 560
+    }
+  },
+  {
+    "id": "jklcmfdd-0372-cxd3-lda6-3236d13asdv3",
+    "title": "Набор 4(8 Марта)",
+    "img": {
+      "preview": "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+      "other": [
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg"
+      ]
+    },
+    "price": 3000,
+    "discount": 0,
+    "category": "holiday",
+    "subcategory": "birthday",
+    "itemNumber": 1234556,
+    "composition": "edible",
+    "purpose": "cosmetic",
+    "packaging": "box",
+    "isCanDelivered": false,
+    "compositionItems": ["Мёд белой акации, 300г  (1шт)", "Деревянная ложечка  (1шт)"],
+    "sizes": {
+      "length": 10,
+      "width": 6,
+      "height": 20,
+      "weight": 560
+    }
+  },
+  {
+    "id": "jklcm0dd-0372-cxd3-lda6-6536d13asdv3",
+    "title": "Набор 4(8 Марта)",
+    "img": {
+      "preview": "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+      "other": [
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg"
+      ]
+    },
+    "price": 3500,
+    "discount": 40,
+    "category": "holiday",
+    "subcategory": "easter",
+    "itemNumber": 1234556,
+    "composition": "edible",
+    "purpose": "guests",
+    "packaging": "basket",
+    "isCanDelivered": true,
+    "compositionItems": ["Мёд белой акации, 300г  (1шт)", "Деревянная ложечка  (1шт)"],
+    "sizes": {
+      "length": 10,
+      "width": 6,
+      "height": 20,
+      "weight": 560
+    }
+  },
+  {
+    "id": "jklcmfdd-0372-cxd3-lda6-6536d13asdv3",
+    "title": "Набор 4(8 Марта)",
+    "img": {
+      "preview": "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+      "other": [
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg"
+      ]
+    },
+    "price": 4450,
+    "discount": 3,
+    "category": "holiday",
+    "subcategory": "mothersDay",
+    "itemNumber": 1234556,
+    "composition": "edible",
+    "purpose": "bathhouse",
+    "packaging": "packet",
+    "isCanDelivered": true,
+    "compositionItems": ["Мёд белой акации, 300г  (1шт)", "Деревянная ложечка  (1шт)"],
+    "sizes": {
+      "length": 10,
+      "width": 6,
+      "height": 20,
+      "weight": 560
+    }
+  },
+  {
+    "id": "jklcs4dd-0372-cxd3-lda6-6536d13asdv3",
+    "title": "Набор 4(8 Марта)",
+    "img": {
+      "preview": "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+      "other": [
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg"
+      ]
+    },
+    "price": 4700,
+    "discount": 7,
+    "category": "birthChild",
+    "subcategory": "easter",
+    "itemNumber": 1234556,
+    "composition": "inedible",
+    "purpose": "kitchen",
+    "packaging": "basket",
+    "isCanDelivered": true,
+    "compositionItems": ["Мёд белой акации, 300г  (1шт)", "Деревянная ложечка  (1шт)"],
+    "sizes": {
+      "length": 10,
+      "width": 6,
+      "height": 20,
+      "weight": 560
+    }
+  },
+  {
+    "id": "jklcs4dd-0372-cxd3-lda6-6536d13lwiv3",
+    "title": "Набор 4(8 Марта)",
+    "img": {
+      "preview": "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+      "other": [
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg"
+      ]
+    },
+    "price": 4700,
+    "discount": 7,
+    "category": "holiday",
+    "subcategory": "mother-day",
+    "itemNumber": 1234556,
+    "composition": "inedible",
+    "purpose": "kitchen",
+    "packaging": "basket",
+    "isCanDelivered": true,
+    "compositionItems": ["Мёд белой акации, 300г  (1шт)", "Деревянная ложечка  (1шт)"],
+    "sizes": {
+      "length": 10,
+      "width": 6,
+      "height": 20,
+      "weight": 560
+    }
+  },
+  {
+    "id": "jklcmfdd-0372-czd3-lda6-6536d13asdv3",
+    "title": "Набор 4(8 Марта)",
+    "img": {
+      "preview": "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+      "other": [
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg"
+      ]
+    },
+    "price": 4700,
+    "discount": 7,
+    "category": "corporate",
+    "subcategory": "easter",
+    "itemNumber": 1234556,
+    "composition": "inedible",
+    "purpose": "cosmetic",
+    "packaging": "box",
+    "isCanDelivered": true,
+    "compositionItems": ["Мёд белой акации, 300г  (1шт)", "Деревянная ложечка  (1шт)"],
+    "sizes": {
+      "length": 10,
+      "width": 6,
+      "height": 20,
+      "weight": 560
+    }
+  },
+  {
+    "id": "jklcmfddq-0372-czd3-lda6-6536d13asdv3",
+    "title": "Набор 4(8 Марта)",
+    "img": {
+      "preview": "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+      "other": [
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg"
+      ]
+    },
+    "price": 4700,
+    "discount": 7,
+    "category": "corporate",
+    "subcategory": "easter",
+    "itemNumber": 1234556,
+    "composition": "inedible",
+    "purpose": "cosmetic",
+    "packaging": "box",
+    "isCanDelivered": true,
+    "compositionItems": ["Мёд белой акации, 300г  (1шт)", "Деревянная ложечка  (1шт)"],
+    "sizes": {
+      "length": 10,
+      "width": 6,
+      "height": 20,
+      "weight": 560
+    }
+  },
+  {
+    "id": "jklcmfddw-0372-czd3-lda6-6536d13asdv3",
+    "title": "Набор 4(8 Марта)",
+    "img": {
+      "preview": "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+      "other": [
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg"
+      ]
+    },
+    "price": 4700,
+    "discount": 7,
+    "category": "corporate",
+    "subcategory": "easter",
+    "itemNumber": 1234556,
+    "composition": "inedible",
+    "purpose": "cosmetic",
+    "packaging": "box",
+    "isCanDelivered": true,
+    "compositionItems": ["Мёд белой акации, 300г  (1шт)", "Деревянная ложечка  (1шт)"],
+    "sizes": {
+      "length": 10,
+      "width": 6,
+      "height": 20,
+      "weight": 560
+    }
+  },
+  {
+    "id": "jklcmfdde-0372-czd3-lda6-6536d13asdv3",
+    "title": "Набор 4(8 Марта)",
+    "img": {
+      "preview": "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+      "other": [
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg"
+      ]
+    },
+    "price": 4700,
+    "discount": 7,
+    "category": "corporate",
+    "subcategory": "easter",
+    "itemNumber": 1234556,
+    "composition": "inedible",
+    "purpose": "cosmetic",
+    "packaging": "box",
+    "isCanDelivered": true,
+    "compositionItems": ["Мёд белой акации, 300г  (1шт)", "Деревянная ложечка  (1шт)"],
+    "sizes": {
+      "length": 10,
+      "width": 6,
+      "height": 20,
+      "weight": 560
+    }
+  },
+  {
+    "id": "jklcmfddr-0372-czd3-lda6-6536d13asdv3",
+    "title": "Набор 4(8 Марта)",
+    "img": {
+      "preview": "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+      "other": [
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg"
+      ]
+    },
+    "price": 4700,
+    "discount": 7,
+    "category": "corporate",
+    "subcategory": "easter",
+    "itemNumber": 1234556,
+    "composition": "inedible",
+    "purpose": "cosmetic",
+    "packaging": "box",
+    "isCanDelivered": true,
+    "compositionItems": ["Мёд белой акации, 300г  (1шт)", "Деревянная ложечка  (1шт)"],
+    "sizes": {
+      "length": 10,
+      "width": 6,
+      "height": 20,
+      "weight": 560
+    }
+  },
+  {
+    "id": "jklcmfddt-0372-czd3-lda6-6536d13asdv3",
+    "title": "Набор 4(8 Марта)",
+    "img": {
+      "preview": "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+      "other": [
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg"
+      ]
+    },
+    "price": 4700,
+    "discount": 7,
+    "category": "corporate",
+    "subcategory": "easter",
+    "itemNumber": 1234556,
+    "composition": "inedible",
+    "purpose": "cosmetic",
+    "packaging": "box",
+    "isCanDelivered": true,
+    "compositionItems": ["Мёд белой акации, 300г  (1шт)", "Деревянная ложечка  (1шт)"],
+    "sizes": {
+      "length": 10,
+      "width": 6,
+      "height": 20,
+      "weight": 560
+    }
+  },
+  {
+    "id": "jklcmfddy-0372-czd3-lda6-6536d13asdv3",
+    "title": "Набор 4(8 Марта)",
+    "img": {
+      "preview": "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+      "other": [
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg"
+      ]
+    },
+    "price": 4700,
+    "discount": 7,
+    "category": "corporate",
+    "subcategory": "easter",
+    "itemNumber": 1234556,
+    "composition": "inedible",
+    "purpose": "cosmetic",
+    "packaging": "box",
+    "isCanDelivered": true,
+    "compositionItems": ["Мёд белой акации, 300г  (1шт)", "Деревянная ложечка  (1шт)"],
+    "sizes": {
+      "length": 10,
+      "width": 6,
+      "height": 20,
+      "weight": 560
+    }
+  },
+  {
+    "id": "jklcmfddu-0372-czd3-lda6-6536d13asdv3",
+    "title": "Набор 4(8 Марта)",
+    "img": {
+      "preview": "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+      "other": [
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg"
+      ]
+    },
+    "price": 4700,
+    "discount": 7,
+    "category": "corporate",
+    "subcategory": "easter",
+    "itemNumber": 1234556,
+    "composition": "inedible",
+    "purpose": "cosmetic",
+    "packaging": "box",
+    "isCanDelivered": true,
+    "compositionItems": ["Мёд белой акации, 300г  (1шт)", "Деревянная ложечка  (1шт)"],
+    "sizes": {
+      "length": 10,
+      "width": 6,
+      "height": 20,
+      "weight": 560
+    }
+  },
+  {
+    "id": "jklcmfddi-0372-czd3-lda6-6536d13asdv3",
+    "title": "Набор 4(8 Марта)",
+    "img": {
+      "preview": "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+      "other": [
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg"
+      ]
+    },
+    "price": 4700,
+    "discount": 7,
+    "category": "corporate",
+    "subcategory": "easter",
+    "itemNumber": 1234556,
+    "composition": "inedible",
+    "purpose": "cosmetic",
+    "packaging": "box",
+    "isCanDelivered": true,
+    "compositionItems": ["Мёд белой акации, 300г  (1шт)", "Деревянная ложечка  (1шт)"],
+    "sizes": {
+      "length": 10,
+      "width": 6,
+      "height": 20,
+      "weight": 560
+    }
+  },
+  {
+    "id": "jklcmfddo-0372-czd3-lda6-6536d13asdv3",
+    "title": "Набор 4(8 Марта)",
+    "img": {
+      "preview": "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+      "other": [
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg"
+      ]
+    },
+    "price": 4700,
+    "discount": 7,
+    "category": "corporate",
+    "subcategory": "easter",
+    "itemNumber": 1234556,
+    "composition": "inedible",
+    "purpose": "cosmetic",
+    "packaging": "box",
+    "isCanDelivered": true,
+    "compositionItems": ["Мёд белой акации, 300г  (1шт)", "Деревянная ложечка  (1шт)"],
+    "sizes": {
+      "length": 10,
+      "width": 6,
+      "height": 20,
+      "weight": 560
+    }
+  },
+  {
+    "id": "jklcmfddp-0372-czd3-lda6-6536d13asdv3",
+    "title": "Набор 4(8 Марта)",
+    "img": {
+      "preview": "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+      "other": [
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg"
+      ]
+    },
+    "price": 4700,
+    "discount": 7,
+    "category": "corporate",
+    "subcategory": "easter",
+    "itemNumber": 1234556,
+    "composition": "inedible",
+    "purpose": "cosmetic",
+    "packaging": "box",
+    "isCanDelivered": true,
+    "compositionItems": ["Мёд белой акации, 300г  (1шт)", "Деревянная ложечка  (1шт)"],
+    "sizes": {
+      "length": 10,
+      "width": 6,
+      "height": 20,
+      "weight": 560
+    }
+  },
+  {
+    "id": "jklcmfdda-0372-czd3-lda6-6536d13asdv3",
+    "title": "Набор 4(8 Марта)",
+    "img": {
+      "preview": "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+      "other": [
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg"
+      ]
+    },
+    "price": 4700,
+    "discount": 7,
+    "category": "corporate",
+    "subcategory": "easter",
+    "itemNumber": 1234556,
+    "composition": "inedible",
+    "purpose": "cosmetic",
+    "packaging": "box",
+    "isCanDelivered": true,
+    "compositionItems": ["Мёд белой акации, 300г  (1шт)", "Деревянная ложечка  (1шт)"],
+    "sizes": {
+      "length": 10,
+      "width": 6,
+      "height": 20,
+      "weight": 560
+    }
+  },
+  {
+    "id": "jklcmfdds-0372-czd3-lda6-6536d13asdv3",
+    "title": "Набор 4(8 Марта)",
+    "img": {
+      "preview": "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+      "other": [
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg"
+      ]
+    },
+    "price": 4700,
+    "discount": 7,
+    "category": "corporate",
+    "subcategory": "easter",
+    "itemNumber": 1234556,
+    "composition": "inedible",
+    "purpose": "cosmetic",
+    "packaging": "box",
+    "isCanDelivered": true,
+    "compositionItems": ["Мёд белой акации, 300г  (1шт)", "Деревянная ложечка  (1шт)"],
+    "sizes": {
+      "length": 10,
+      "width": 6,
+      "height": 20,
+      "weight": 560
+    }
+  },
+  {
+    "id": "jklcmfddd-0372-czd3-lda6-6536d13asdv3",
+    "title": "Набор 4(8 Марта)",
+    "img": {
+      "preview": "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+      "other": [
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg"
+      ]
+    },
+    "price": 4700,
+    "discount": 7,
+    "category": "corporate",
+    "subcategory": "easter",
+    "itemNumber": 1234556,
+    "composition": "inedible",
+    "purpose": "cosmetic",
+    "packaging": "box",
+    "isCanDelivered": true,
+    "compositionItems": ["Мёд белой акации, 300г  (1шт)", "Деревянная ложечка  (1шт)"],
+    "sizes": {
+      "length": 10,
+      "width": 6,
+      "height": 20,
+      "weight": 560
+    }
+  },
+  {
+    "id": "jklcmfddf-0372-czd3-lda6-6536d13asdv3",
+    "title": "Набор 4(8 Марта)",
+    "img": {
+      "preview": "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+      "other": [
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg"
+      ]
+    },
+    "price": 4700,
+    "discount": 7,
+    "category": "corporate",
+    "subcategory": "easter",
+    "itemNumber": 1234556,
+    "composition": "inedible",
+    "purpose": "cosmetic",
+    "packaging": "box",
+    "isCanDelivered": true,
+    "compositionItems": ["Мёд белой акации, 300г  (1шт)", "Деревянная ложечка  (1шт)"],
+    "sizes": {
+      "length": 10,
+      "width": 6,
+      "height": 20,
+      "weight": 560
+    }
+  },
+  {
+    "id": "jklcmfddg-0372-czd3-lda6-6536d13asdv3",
+    "title": "Набор 4(8 Марта)",
+    "img": {
+      "preview": "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+      "other": [
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg"
+      ]
+    },
+    "price": 4700,
+    "discount": 7,
+    "category": "corporate",
+    "subcategory": "easter",
+    "itemNumber": 1234556,
+    "composition": "inedible",
+    "purpose": "cosmetic",
+    "packaging": "box",
+    "isCanDelivered": true,
+    "compositionItems": ["Мёд белой акации, 300г  (1шт)", "Деревянная ложечка  (1шт)"],
+    "sizes": {
+      "length": 10,
+      "width": 6,
+      "height": 20,
+      "weight": 560
+    }
+  },
+  {
+    "id": "jklcmfddh-0372-czd3-lda6-6536d13asdv3",
+    "title": "Набор 4(8 Марта)",
+    "img": {
+      "preview": "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+      "other": [
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg"
+      ]
+    },
+    "price": 4700,
+    "discount": 7,
+    "category": "corporate",
+    "subcategory": "easter",
+    "itemNumber": 1234556,
+    "composition": "inedible",
+    "purpose": "cosmetic",
+    "packaging": "box",
+    "isCanDelivered": true,
+    "compositionItems": ["Мёд белой акации, 300г  (1шт)", "Деревянная ложечка  (1шт)"],
+    "sizes": {
+      "length": 10,
+      "width": 6,
+      "height": 20,
+      "weight": 560
+    }
+  },
+  {
+    "id": "jklcmfddj-0372-czd3-lda6-6536d13asdv3",
+    "title": "Набор 4(8 Марта)",
+    "img": {
+      "preview": "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+      "other": [
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg"
+      ]
+    },
+    "price": 4700,
+    "discount": 7,
+    "category": "corporate",
+    "subcategory": "easter",
+    "itemNumber": 1234556,
+    "composition": "inedible",
+    "purpose": "cosmetic",
+    "packaging": "box",
+    "isCanDelivered": true,
+    "compositionItems": ["Мёд белой акации, 300г  (1шт)", "Деревянная ложечка  (1шт)"],
+    "sizes": {
+      "length": 10,
+      "width": 6,
+      "height": 20,
+      "weight": 560
+    }
+  },
+  {
+    "id": "jklcmfddk-0372-czd3-lda6-6536d13asdv3",
+    "title": "Набор 4(8 Марта)",
+    "img": {
+      "preview": "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+      "other": [
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg"
+      ]
+    },
+    "price": 4700,
+    "discount": 7,
+    "category": "corporate",
+    "subcategory": "easter",
+    "itemNumber": 1234556,
+    "composition": "inedible",
+    "purpose": "cosmetic",
+    "packaging": "box",
+    "isCanDelivered": true,
+    "compositionItems": ["Мёд белой акации, 300г  (1шт)", "Деревянная ложечка  (1шт)"],
+    "sizes": {
+      "length": 10,
+      "width": 6,
+      "height": 20,
+      "weight": 560
+    }
+  },
+  {
+    "id": "jklcmfddl-0372-czd3-lda6-6536d13asdv3",
+    "title": "Набор 4(8 Марта)",
+    "img": {
+      "preview": "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+      "other": [
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg"
+      ]
+    },
+    "price": 4700,
+    "discount": 7,
+    "category": "corporate",
+    "subcategory": "easter",
+    "itemNumber": 1234556,
+    "composition": "inedible",
+    "purpose": "cosmetic",
+    "packaging": "box",
+    "isCanDelivered": true,
+    "compositionItems": ["Мёд белой акации, 300г  (1шт)", "Деревянная ложечка  (1шт)"],
+    "sizes": {
+      "length": 10,
+      "width": 6,
+      "height": 20,
+      "weight": 560
+    }
+  },
+  {
+    "id": "jklcmfddz-0372-czd3-lda6-6536d13asdv3",
+    "title": "Набор 4(8 Марта)",
+    "img": {
+      "preview": "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+      "other": [
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg"
+      ]
+    },
+    "price": 4700,
+    "discount": 7,
+    "category": "corporate",
+    "subcategory": "easter",
+    "itemNumber": 1234556,
+    "composition": "inedible",
+    "purpose": "cosmetic",
+    "packaging": "box",
+    "isCanDelivered": true,
+    "compositionItems": ["Мёд белой акации, 300г  (1шт)", "Деревянная ложечка  (1шт)"],
+    "sizes": {
+      "length": 10,
+      "width": 6,
+      "height": 20,
+      "weight": 560
+    }
+  },
+  {
+    "id": "jklcmfddx-0372-czd3-lda6-6536d13asdv3",
+    "title": "Набор 4(8 Марта)",
+    "img": {
+      "preview": "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+      "other": [
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg"
+      ]
+    },
+    "price": 4700,
+    "discount": 7,
+    "category": "corporate",
+    "subcategory": "easter",
+    "itemNumber": 1234556,
+    "composition": "inedible",
+    "purpose": "cosmetic",
+    "packaging": "box",
+    "isCanDelivered": true,
+    "compositionItems": ["Мёд белой акации, 300г  (1шт)", "Деревянная ложечка  (1шт)"],
+    "sizes": {
+      "length": 10,
+      "width": 6,
+      "height": 20,
+      "weight": 560
+    }
+  },
+  {
+    "id": "jklcmfddc-0372-czd3-lda6-6536d13asdv3",
+    "title": "Набор 4(8 Марта)",
+    "img": {
+      "preview": "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+      "other": [
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg"
+      ]
+    },
+    "price": 4700,
+    "discount": 7,
+    "category": "corporate",
+    "subcategory": "easter",
+    "itemNumber": 1234556,
+    "composition": "inedible",
+    "purpose": "cosmetic",
+    "packaging": "box",
+    "isCanDelivered": true,
+    "compositionItems": ["Мёд белой акации, 300г  (1шт)", "Деревянная ложечка  (1шт)"],
+    "sizes": {
+      "length": 10,
+      "width": 6,
+      "height": 20,
+      "weight": 560
+    }
+  },
+  {
+    "id": "jklcmfddv-0372-czd3-lda6-6536d13asdv3",
+    "title": "Набор 4(8 Марта)",
+    "img": {
+      "preview": "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+      "other": [
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg"
+      ]
+    },
+    "price": 4700,
+    "discount": 7,
+    "category": "corporate",
+    "subcategory": "easter",
+    "itemNumber": 1234556,
+    "composition": "inedible",
+    "purpose": "cosmetic",
+    "packaging": "box",
+    "isCanDelivered": true,
+    "compositionItems": ["Мёд белой акации, 300г  (1шт)", "Деревянная ложечка  (1шт)"],
+    "sizes": {
+      "length": 10,
+      "width": 6,
+      "height": 20,
+      "weight": 560
+    }
+  },
+  {
+    "id": "jklcmfddb-0372-czd3-lda6-6536d13asdv3",
+    "title": "Набор 4(8 Марта)",
+    "img": {
+      "preview": "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+      "other": [
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg"
+      ]
+    },
+    "price": 4700,
+    "discount": 7,
+    "category": "corporate",
+    "subcategory": "easter",
+    "itemNumber": 1234556,
+    "composition": "inedible",
+    "purpose": "cosmetic",
+    "packaging": "box",
+    "isCanDelivered": true,
+    "compositionItems": ["Мёд белой акации, 300г  (1шт)", "Деревянная ложечка  (1шт)"],
+    "sizes": {
+      "length": 10,
+      "width": 6,
+      "height": 20,
+      "weight": 560
+    }
+  },
+  {
+    "id": "jklcmfddn-0372-czd3-lda6-6536d13asdv3",
+    "title": "Набор 4(8 Марта)",
+    "img": {
+      "preview": "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+      "other": [
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg"
+      ]
+    },
+    "price": 4700,
+    "discount": 7,
+    "category": "corporate",
+    "subcategory": "easter",
+    "itemNumber": 1234556,
+    "composition": "inedible",
+    "purpose": "cosmetic",
+    "packaging": "box",
+    "isCanDelivered": true,
+    "compositionItems": ["Мёд белой акации, 300г  (1шт)", "Деревянная ложечка  (1шт)"],
+    "sizes": {
+      "length": 10,
+      "width": 6,
+      "height": 20,
+      "weight": 560
+    }
+  },
+  {
+    "id": "jklcmfddm-0372-czd3-lda6-6536d13asdv3",
+    "title": "Набор 4(8 Марта)",
+    "img": {
+      "preview": "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+      "other": [
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg",
+        "http://localhost:5000/static/images/products/set-4-march-8.jpg"
+      ]
+    },
+    "price": 4700,
+    "discount": 7,
+    "category": "corporate",
+    "subcategory": "easter",
+    "itemNumber": 1234556,
+    "composition": "inedible",
+    "purpose": "cosmetic",
+    "packaging": "box",
+    "isCanDelivered": true,
+    "compositionItems": ["Мёд белой акации, 300г  (1шт)", "Деревянная ложечка  (1шт)"],
+    "sizes": {
+      "length": 10,
+      "width": 6,
+      "height": 20,
+      "weight": 560
+    }
+  }
+]

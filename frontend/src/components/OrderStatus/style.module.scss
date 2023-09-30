@@ -1,0 +1,23 @@
+@import '~styles/variables';
+
+.status {
+  &__descr {
+    margin-right: 10px;
+  }
+
+  &__state {
+    font-weight: 600;
+
+    &--pending {
+      color: $color-16;
+    }
+
+    &--paid {
+      color: $color-17;
+    }
+
+    &--delivered {
+      color: $color-12;
+    }
+  }
+}

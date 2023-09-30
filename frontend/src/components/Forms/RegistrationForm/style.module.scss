@@ -1,0 +1,48 @@
+.form {
+  position: relative;
+
+  &__title {
+    margin-bottom: 21px;
+    font-weight: 400;
+    font-size: 32px;
+    font-family: 'Pomidorko', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  &__loader-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+  }
+
+  &__field-wrapper {
+    &:not(:nth-child(5)) {
+      margin-bottom: 8px;
+    }
+
+    &:nth-child(5) {
+      margin-bottom: 23px;
+    }
+  }
+
+  &__checkbox {
+    &:not(:last-child) {
+      margin-bottom: 12px;
+    }
+
+    &:last-child {
+      margin-bottom: 21px;
+    }
+  }
+
+  &__registration-btn {
+    width: 100%;
+  }
+
+  &__registration-text-btn {
+    width: 100%;
+  }
+}

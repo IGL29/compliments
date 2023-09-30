@@ -1,0 +1,164 @@
+@import '~styles/variables';
+
+.button {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 40px;
+  cursor: pointer;
+  transition:
+    background-color 0.3s,
+    border-color 0.3s;
+
+  &--inline-block {
+    display: inline-block;
+  }
+
+  &--loading {
+    position: relative;
+
+    &::after {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 30px;
+      height: 30px;
+      border-top: 5px solid $color-14;
+      border-right: 5px solid $color-14;
+      border-bottom: 5px solid $color-14;
+      border-left: 5px solid transparent;
+      border-radius: 50%;
+      transform: translate(-50%, -50%);
+      animation: spin-animate infinite forwards linear 1s;
+      content: '';
+    }
+  }
+
+  &--variant {
+    &-1 {
+      color: $color-8;
+      background-color: $color-4;
+      border-color: $color-4;
+
+      @media ($ui-mouse-device) {
+        &:hover {
+          background-color: $color-10;
+          border-color: $color-10;
+        }
+      }
+
+      &:active {
+        background-color: rgba($color: $color-4, $alpha: 70%);
+        border-color: rgba($color: $color-4, $alpha: 70%);
+      }
+    }
+
+    &-2 {
+      color: $color-3;
+      background-color: transparent;
+      border-color: $color-3;
+
+      @media ($ui-mouse-device) {
+        &:hover {
+          background-color: $color-15;
+        }
+      }
+
+      &:active {
+        background-color: $color-5;
+      }
+    }
+
+    &-3 {
+      color: $color-3;
+      background-color: $color-5;
+      border-color: $color-5;
+    }
+
+    &-4 {
+      color: $color-14;
+      background-color: $color-1;
+      border-color: $color-1;
+      transition: background-color 0.3s;
+
+      @media ($ui-mouse-device) {
+        &:hover {
+          background-color: rgba($color: $color-1, $alpha: 70%);
+        }
+      }
+    }
+
+    &-5 {
+      color: $color-2;
+      background-color: $color-14;
+      border-color: $color-14;
+    }
+  }
+
+  &--size {
+    &-default {
+      padding: 20px 40px;
+    }
+
+    &-mini {
+      padding: 20px 30px;
+    }
+
+    &-zero {
+      padding: 0;
+    }
+  }
+
+  &--rounded {
+    &-full {
+      border-radius: 50%;
+    }
+  }
+}
+
+.content-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.icon-wrapper {
+  display: flex;
+
+  &--mr {
+    margin-right: 10px;
+  }
+}
+
+@keyframes spin-animate {
+  from {
+    transform: translate(-50%, -50%) rotateZ(0deg);
+  }
+
+  to {
+    transform: translate(-50%, -50%) rotateZ(360deg);
+  }
+}
+
+@media (max-width: $ui-sm) {
+  .button {
+    &--size {
+      &-default {
+        padding-right: 30px;
+        padding-left: 30px;
+      }
+    }
+  }
+}
+
+@media (max-width: $ui-xs) {
+  .button {
+    &__text {
+      font-size: 14px;
+    }
+
+    &--size {
+      &-default {
+        padding: 13px 20px;
+      }
+    }
+  }
+}

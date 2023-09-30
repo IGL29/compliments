@@ -1,0 +1,49 @@
+@import '~styles/variables';
+
+.page {
+  &__title {
+    margin-bottom: 40px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  &__nav-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+
+  &__nav-link {
+    flex: 1 1 33.33%;
+
+    &:not(:last-child) {
+      margin-right: 16px;
+    }
+  }
+
+  &__wrapper-text-link {
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  &__text-nav-link {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: $ui-xs) {
+  .page {
+    &__nav-wrapper {
+      flex-direction: column;
+    }
+
+    &__nav-link {
+      &:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 16px;
+      }
+    }
+  }
+}

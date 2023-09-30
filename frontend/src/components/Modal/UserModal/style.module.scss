@@ -1,0 +1,44 @@
+@import '~styles/variables';
+
+.auth {
+  padding-top: 20px;
+
+  &__tabs-wrapper {
+    display: flex;
+    margin-bottom: 32px;
+  }
+
+  &__tab {
+    width: 100%;
+  }
+
+  &__tab-text {
+    width: 100%;
+  }
+
+  &__signin-btn {
+    margin-right: 20px;
+  }
+
+  &__registration-btn {
+    margin-left: auto;
+  }
+
+  &__signin-form {
+    max-width: 350px;
+    margin: 0 auto;
+  }
+
+  &__registration-form {
+    max-width: 350px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: $ui-xs) {
+  .auth {
+    &__signin-btn {
+      margin-right: 4px;
+    }
+  }
+}
