@@ -2,7 +2,7 @@
 
 ## Развертывание проекта
 
-(Версии npm, node [a relative link](./package.json) - секция `engines`).
+([Версии npm, node](./package.json) - секция `engines`).
 
 Выполните `npm i` для установки.
 
